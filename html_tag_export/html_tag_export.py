@@ -96,7 +96,7 @@ def main(argv):
                 pass
 
             with open(result_dir, 'w') as f:
-                f.write(result.prettify())
+                f.write(result.prettify().encode('utf-8'))
 
             # print result.prettify()
 
